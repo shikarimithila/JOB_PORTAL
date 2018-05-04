@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0%;
+	margin: 0%;
+}
+input[type=text],input[type=date]
+{
+	 width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #736bf8;
+   /* -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;*/
+}
+input[type=text]:focus input[type=date]:focus {
+    border: 3px solid #296d81;
+}
+textarea{
+	
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 3px solid  #736bf8;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 14px;
+	resize: none;
+}
+.button{
+	background-color: #5b50c0;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#label
+{
+	background-color: #e7f5cf;
+	
+}
+

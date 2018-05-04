@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0%;
+	margin: 0%;
+}
+/*.navbar{
+	overflow: hidden;
+	background-color: #0000ff;
+	width: 100%;
+	font-family: sans-serif;
+	}
+.navbar img{
+	height: 70px;
+	width: 80px;
+	float: left;
+	margin-left:30px;
+	padding: 5px;
+}
+.navbar a{
+	float: right;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 25px 25px;
+	text-decoration: none;
+}
+.drop{
+	float: left;
+	overflow: hidden;
+}
+.drop .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color:white;
+	padding: 20px 20px;
+	background-color:#0000ff;
+	
+}
+.navbar a:hover, .drop:hover .dropbtn{
+	background-color: #d7ffff;
+	color: black;
+}
+.drop-menu{
+	display: none;
+	position:absolute;
+	background-color: #ffffff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+}
+.drop-menu a{
+	float: none;
+	color: #0000ff;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+
+}
+.drop-menu a:hover {
+	background-color: #ddd;
+}
+.drop:hover .drop-menu {
+	display: block;
+	
+}
+.button{
+	background-color: blue;
+	border: none;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	padding: 12px 28px;
+	
+}*/
+/*table*/
+input[type=text],input[type=tel],input[type=password],input[type=email]
+ {
+    border: none;
+    border-bottom: 2px solid #0000ff;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+   
+}
+input[type=date]{
+	border: none;
+	border-bottom: 2px solid blue;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: inline-block;
+	
+	
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #0000ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+form{
+	   background-color: #f1c7e9;
+	width: 450px;
+}
+/*table{
+	width: 380px;
+}*/
+input[type=submit]:hover {
+    background-color: #8080ff;
+    
+}
+textarea{
+	/*width: 230px;
+	height: 80px;*/
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid blue;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 14px;
+	resize: none;
+}
+
+#table {
+    
+    padding: 120px;
+    border: 1px black;
+}
+#table a{
+color: #30327a;
+text-decoration: none;
+}
+
+#last
+{
+	width:10px;
+	background-color: gray;
+	margin-bottom:10px;
+	padding-bottom: 10px;
+}
